@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TradingViewReplica.Api/TradingViewReplica.Api.csproj" />
+    <Project Path="src/TradingViewReplica.MarketData/TradingViewReplica.MarketData.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/TradingViewReplica.MarketData.Tests/TradingViewReplica.MarketData.Tests.csproj" />
+  </Folder>
+</Solution>

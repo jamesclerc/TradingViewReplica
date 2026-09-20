@@ -1,0 +1,24 @@
+@baseUrl = https://localhost:5250
+
+### Health check
+GET {{baseUrl}}/health
+
+### Search symbols
+GET {{baseUrl}}/api/symbols/search?q=Apple
+
+### Get daily candles (default interval=OneDay, range=SixMonths)
+GET {{baseUrl}}/api/candles/AAPL
+
+### Get candles with explicit interval/range
+GET {{baseUrl}}/api/candles/AAPL?interval=OneDay&range=OneMonth
+
+### Get intraday candles (exercises the Yahoo lookback clamp)
+GET {{baseUrl}}/api/candles/AAPL?interval=FiveMinutes&range=FiveDays
+
+### Invalid symbol (expect 404, MarketDataErrorType.SymbolNotFound)
+GET {{baseUrl}}/api/candles/ZZZZINVALIDXYZ
+
+### Invalid interval (expect 400)
+GET {{baseUrl}}/api/candles/AAPL?interval=NotARealInterval
+
+###
