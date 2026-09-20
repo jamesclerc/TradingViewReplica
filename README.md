@@ -10,6 +10,8 @@
 ![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
 ![klinecharts](https://img.shields.io/badge/klinecharts-10-26A69A?logo=chartdotjs&logoColor=white)
 
+![TradingView Replica — stocks screener with NVDA chart open](docs/screenshot/mainView.png)
+
 </div>
 
 ---
@@ -57,6 +59,8 @@ as a full-stack .NET + React project from an empty repo.
 - Live symbol autocomplete with logos, across equities, ETFs, futures, and more
 
 Dark theme throughout, styled after TradingView's own palette.
+
+![Crypto category with a live BTC-USD chart](docs/screenshot/CryptoView.png)
 
 ## Tech stack
 
